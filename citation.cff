@@ -1,0 +1,11 @@
+cff-version: 1.0.0
+message: "If you use this code, please cite it as below."
+authors:
+- family-names: "Waters"
+  given-names: "Cara L."
+  orcid: "https://orcid.org/0000-0002-5208-773X"
+title: "mms_rnn_run"
+version: 1.0.0
+doi: 10.5281/zenodo.15723061
+date-released: 2025-06-23
+url: "https://github.com/carawaters/mms_rnn_run"
