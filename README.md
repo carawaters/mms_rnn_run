@@ -4,12 +4,12 @@ This repository contains a pipeline to process MMS burst data, normalise and sca
 
 ## 📁 Repository Structure
 
-├── rnn_run.py # Main entry point; runs the full pipeline for selected events
-├── mms_data_load.py # Loads and preprocesses MMS burst data
-├── mms_event_scale.py # Scales data using normalisation constants (B0, n0)
-├── mms_rnn.py # Formats the data for RNN input and applies the trained RNN
-├── best_model # Trained PyTorch RNN model used for inference
-├── data/ # Directory where intermediate and output files are saved
+├── rnn_run.py # Main entry point; runs the full pipeline for selected events \
+├── mms_data_load.py # Loads and preprocesses MMS burst data \
+├── mms_event_scale.py # Scales data using normalisation constants (B0, n0) \
+├── mms_rnn.py # Formats the data for RNN input and applies the trained RNN \
+├── best_model # Trained PyTorch RNN model used for inference \
+├── data/ # Directory where intermediate and output files are saved \
 
 ## 🔧 Requirements
 This project requires Python (≥3.8) and a set of scientific and space physics packages. You can set it up using either a Conda environment or a standard Python virtual environment.
@@ -85,6 +85,6 @@ The normalization is event-specific to allow comparison across MMS tail events w
 By default, only a subset of events (IDs given by nums in rnn_run.py) is processed to reduce runtime.
 
 ## 📄 Author
-Cara Waters, 2025
-Imperial College London
+Cara Waters, 2025 \
+Imperial College London \
 For questions, please contact: cara.waters18@imperial.ac.uk
