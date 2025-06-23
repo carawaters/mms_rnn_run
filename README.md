@@ -1,5 +1,7 @@
 # MMS Reconnection Region Classification with RNN
 
+![image](https://github.com/user-attachments/assets/393c166a-f0ec-487a-8af1-74667eb6d6f6)
+
 This repository contains a pipeline to process MMS burst data, normalise and scale it for comparison across events, and apply a trained recurrent neural network (RNN) model to classify different regions in magnetotail reconnection.
 
 Event list is sourced from Supporting Information of Rogers+ 2023, https://doi.org/10.1029/2022JA030577
