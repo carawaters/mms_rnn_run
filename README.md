@@ -2,6 +2,8 @@
 
 This repository contains a pipeline to process MMS burst data, normalise and scale it for comparison across events, and apply a trained recurrent neural network (RNN) model to classify different regions in magnetotail reconnection.
 
+Event list is sourced from Supporting Information of Rogers+ 2023, https://doi.org/10.1029/2022JA030577
+
 ## 📁 Repository Structure
 
 ├── rnn_run.py # Main entry point; runs the full pipeline for selected events \
